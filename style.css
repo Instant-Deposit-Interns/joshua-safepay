@@ -494,9 +494,9 @@ div#preloader {
     text-transform: uppercase;
 }
 .s-menu:hover {
-    border: 1px solid #ff9100;
+    border: 1px solid #400080;
     background:transparent;
-	color:#ff9100;
+	color:#fff;
     transition: 0.4s;
 }
 .header-area.stick  .header-right-link {
@@ -512,7 +512,7 @@ div#preloader {
     width: 100%;
     z-index: 999999;
     box-shadow: 0px 0px 3px #151b2c, -2px -2px 3px #151b2c;
-    background: #1b2654;
+    background: #400080;
 }
 .header-area.stick .logo a {
     display: inline-block;
@@ -528,7 +528,7 @@ div#preloader {
 /*  2.3. Mobile Menu Area
 /*----------------------------------------*/
 .mobile-menu-area {
-    background: #1b2654 none repeat scroll 0 0;
+    background: #ff9100 none repeat scroll 0 0;
     padding: 10px 0px ;
 }
 .mean-container .mean-bar::after {
@@ -543,6 +543,11 @@ div#preloader {
 .mean-container a.meanmenu-reveal:hover {
     color:#ff9100
 }
+
+.mean-container .mean-nav {
+    background-color: #400080;
+}
+
 .mean-container .mean-nav ul {
     list-style-type: none;
     margin: 20px 0px;
@@ -550,7 +555,7 @@ div#preloader {
     width: 100%;
 }
 .mean-container .mean-nav ul li a {
-    background: #1b2654 none repeat scroll 0 0;
+    background: #400080 none repeat scroll 0 0;
     color: #fff;
     display: block;
     float: left;
@@ -569,6 +574,7 @@ div#preloader {
 .mean-container .mean-nav ul li a.mean-expand {
     color: #fff;
     line-height: 17px;
+    background-color: #400080;
 }
 .mean-container .mean-nav ul li {
     width: 99.7%;
@@ -960,10 +966,10 @@ button.cale-btn:hover{
     text-align: center;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     padding: 30px 15px;
-    border: 1px solid #1b2654;
+    border: 1px solid #400080;
     position: relative;
     margin-bottom: 30px;
-    background: #1b2654;
+    background: #400080;
     transition: 0.5s;
     overflow: hidden;
     border-radius: 4px;
@@ -1603,7 +1609,7 @@ button.cale-btn:hover{
     position: relative;
 }
 .page-area {
-    background: url(img/background/bread-bg.jpg);
+    background: url(img/background/architecture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
