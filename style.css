@@ -191,7 +191,7 @@ div#preloader {
 	width: 100%;
 	height: 100%;
 	overflow: visible;
-	background: #1b2654 url('img/logo/preloader.gif') no-repeat center center;
+	background: #400080 url('img/logo/preloader.gif') no-repeat center center;
 }
 .navbar-collapse {
     padding-left: 0px;
